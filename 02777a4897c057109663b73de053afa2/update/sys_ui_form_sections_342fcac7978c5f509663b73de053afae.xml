@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="342fcac7978c5f509663b73de053afae" sys_domain="global" table="x_1902920_scp_fo_0_scp_media" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 03:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f82fcac7978c5f509663b73de053aff2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_media" name="x_1902920_scp_fo_0_scp_media" sys_domain="global" view="Default view">342fcac7978c5f509663b73de053afae</sys_ui_form>
+            <sys_ui_section caption="Media Identification" display_value="Media Identification" name="x_1902920_scp_fo_0_scp_media" sys_domain="global" view="Default view">091ecf7697441f509663b73de053afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 03:30:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 03:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f02fcac7978c5f509663b73de053aff4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_media" name="x_1902920_scp_fo_0_scp_media" sys_domain="global" view="Default view">342fcac7978c5f509663b73de053afae</sys_ui_form>
+            <sys_ui_section caption="Media Attribution" display_value="Media Attribution" name="x_1902920_scp_fo_0_scp_media" sys_domain="global" view="Default view">f82fcac7978c5f509663b73de053afac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 03:30:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1902920_scp_fo_0_scp_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 03:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>342fcac7978c5f509663b73de053afae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902920_scp_fo_0_scp_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_342fcac7978c5f509663b73de053afae</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 03:30:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

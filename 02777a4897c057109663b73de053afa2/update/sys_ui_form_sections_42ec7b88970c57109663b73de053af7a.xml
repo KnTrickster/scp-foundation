@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="42ec7b88970c57109663b73de053af7a" sys_domain="global" table="x_1902920_scp_fo_0_scp_record" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 03:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06ec7b88970c57109663b73de053af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_record" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">42ec7b88970c57109663b73de053af7a</sys_ui_form>
+            <sys_ui_section caption="SCP Identification" display_value="SCP Identification" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">afc94fcc974457109663b73de053aff0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 03:48:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 03:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>caec7b88970c57109663b73de053af81</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_record" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">42ec7b88970c57109663b73de053af7a</sys_ui_form>
+            <sys_ui_section caption="SCP Documentation" display_value="SCP Documentation" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">caec7b88970c57109663b73de053af75</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 04:11:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 03:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06ec7b88970c57109663b73de053af88</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_record" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">42ec7b88970c57109663b73de053af7a</sys_ui_form>
+            <sys_ui_section caption="Foundation Operations" display_value="Foundation Operations" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">8aec7b88970c57109663b73de053af78</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 04:11:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 03:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e4a8a4f974c5f509663b73de053afd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_record" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">42ec7b88970c57109663b73de053af7a</sys_ui_form>
+            <sys_ui_section caption="SCP Attribution" display_value="SCP Attribution" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">2e4a8a4f974c5f509663b73de053afc9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 03:09:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 03:09:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a4a8a4f974c5f509663b73de053afda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902920_scp_fo_0_scp_record" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">42ec7b88970c57109663b73de053af7a</sys_ui_form>
+            <sys_ui_section caption="Curation" display_value="Curation" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">e24a8a4f974c5f509663b73de053afcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 03:09:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 03:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42ec7b88970c57109663b73de053af7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902920_scp_fo_0_scp_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_42ec7b88970c57109663b73de053af7a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 03:48:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e318d8ff9780d3909663b73de053afc0" label="Foundation Site" max_length="40" name="x_1902920_scp_fo_0_foundation_site" type="collection">
+        <element label="Site Director" max_length="32" name="site_director" reference="sys_user" type="reference"/>
+        <element display="true" label="Site Designation" mandatory="true" max_length="65" name="site_designation" type="string" unique="true"/>
+        <element label="Region" max_length="255" name="region" type="string"/>
+        <element choice="3" default="classified" label="Site Type" max_length="40" name="site_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Containment Facility" sequence="3" value="containment_facility"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+                <element inactive_on_update="false" label="Classified" sequence="0" value="classified"/>
+                <element inactive_on_update="false" label="Research Facility" sequence="2" value="research_facility"/>
+                <element inactive_on_update="false" label="Administrative Facility" sequence="1" value="administrative_facility"/>
+            </choice>
+        </element>
+        <element choice="3" default="active" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="1" value="decommissioned"/>
+                <element inactive_on_update="false" label="Classified" sequence="2" value="classified"/>
+            </choice>
+        </element>
+        <index name="index" unique="true">
+            <element name="site_designation"/>
+        </index>
+        <index name="index2">
+            <element name="site_director"/>
+        </index>
+    </element>
+</database>

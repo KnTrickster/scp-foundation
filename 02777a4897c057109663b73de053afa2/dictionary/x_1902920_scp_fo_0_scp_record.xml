@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4bc94fcc974457109663b73de053af41" label="SCP Record" max_length="40" name="x_1902920_scp_fo_0_scp_record" type="collection">
+        <element label="Source URL" mandatory="true" max_length="1024" name="source_url" type="url"/>
+        <element label="Visual Record" max_length="40" name="visual_record" type="user_image"/>
+        <element label="License Details" max_length="255" name="license_details" type="string"/>
+        <element label="Original Content" max_length="65536" name="original_content" read_only="true" type="html"/>
+        <element label="Title" mandatory="true" max_length="255" name="title" type="string"/>
+        <element display="true" label="SCP Designation" mandatory="true" max_length="40" name="scp_designation" type="string" unique="true"/>
+        <element choice="1" label="Object Class" max_length="40" name="object_class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="Neutralized" sequence="4" value="neutralized"/>
+                <element inactive_on_update="false" label="Apollyon" sequence="6" value="apollyon"/>
+                <element inactive_on_update="false" label="Safe" sequence="0" value="safe"/>
+                <element inactive_on_update="false" label="Keter" sequence="2" value="keter"/>
+                <element inactive_on_update="false" label="Archon" sequence="7" value="archon"/>
+                <element inactive_on_update="false" label="Explained" sequence="5" value="explained"/>
+                <element inactive_on_update="false" label="Thaumiel" sequence="3" value="thaumiel"/>
+                <element inactive_on_update="false" label="Euclid" sequence="1" value="euclid"/>
+            </choice>
+        </element>
+        <element label="Author" max_length="255" name="author" type="string"/>
+        <element label="Special Containment Procedures" max_length="65536" name="special_containment_procedures" type="html"/>
+        <element label="SCP Number" max_length="40" name="scp_number" type="integer"/>
+        <element choice="3" default="cc_by_sa_3_0" label="Text License" max_length="40" name="text_license" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CC BY-SA 3.0" sequence="0" value="cc_by_sa_3_0"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="other"/>
+            </choice>
+        </element>
+        <element label="Lead Researcher" max_length="32" name="lead_researcher" reference="sys_user" type="reference"/>
+        <element choice="3" default="imported" label="Review Status" mandatory="true" max_length="40" name="review_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reviewed" sequence="2" value="reviewed"/>
+                <element inactive_on_update="false" label="Imported" sequence="0" value="imported"/>
+                <element inactive_on_update="false" label="Needs Review" sequence="1" value="needs_review"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="65536" name="description" type="html"/>
+        <index name="index">
+            <element name="lead_researcher"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="scp_designation"/>
+        </index>
+    </element>
+</database>

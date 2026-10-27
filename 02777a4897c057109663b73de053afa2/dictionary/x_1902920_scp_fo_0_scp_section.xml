@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d9cbcb3297441f509663b73de053affd" label="SCP Section" max_length="40" name="x_1902920_scp_fo_0_scp_section" type="collection">
+        <element label="SCP Record" mandatory="true" max_length="32" name="scp_record" reference="x_1902920_scp_fo_0_scp_record" reference_cascade_rule="delete" type="reference"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Section Label" max_length="100" name="section_label" type="string"/>
+        <element display="true" label="Title" mandatory="true" max_length="255" name="title" type="string"/>
+        <element choice="3" label="Section Type" mandatory="true" max_length="40" name="section_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Test Log" sequence="4" value="test_log"/>
+                <element inactive_on_update="false" label="Exploration Log" sequence="2" value="exploration_log"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive_on_update="false" label="Addendum" sequence="0" value="addendum"/>
+                <element inactive_on_update="false" label="Incident Log" sequence="3" value="incident_log"/>
+                <element inactive_on_update="false" label="Interview" sequence="1" value="interview"/>
+            </choice>
+        </element>
+        <element label="Content" max_length="40" name="content" type="html"/>
+        <index name="index">
+            <element name="scp_record"/>
+        </index>
+    </element>
+</database>
