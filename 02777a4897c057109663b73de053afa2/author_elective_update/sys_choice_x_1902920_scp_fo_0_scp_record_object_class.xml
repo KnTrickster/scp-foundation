@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="object_class" table="x_1902920_scp_fo_0_scp_record" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>object_class</element>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>object_class</sys_name>
+            <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+            <sys_update_name>sys_choice_x_1902920_scp_fo_0_scp_record_object_class</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safe</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>safe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Euclid</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>euclid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keter</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>keter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thaumiel</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>thaumiel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neutralized</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>neutralized</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Explained</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>explained</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apollyon</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>apollyon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Archon</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-16 02:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-16 02:33:19</sys_updated_on>
+            <value>archon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_record</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 09:47:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 09:47:30</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

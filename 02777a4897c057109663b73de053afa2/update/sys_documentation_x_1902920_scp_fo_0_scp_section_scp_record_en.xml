@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="scp_record" label="SCP Record" language="en" table="x_1902920_scp_fo_0_scp_section">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>scp_record</element>
+            <help/>
+            <hint/>
+            <label>SCP Record</label>
+            <language>en</language>
+            <name>x_1902920_scp_fo_0_scp_section</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 13:21:22</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>SCP Record</sys_name>
+            <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+            <sys_update_name>sys_documentation_x_1902920_scp_fo_0_scp_section_scp_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 13:21:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
