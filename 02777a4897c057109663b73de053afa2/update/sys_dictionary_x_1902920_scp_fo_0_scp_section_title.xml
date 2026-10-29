@@ -11,7 +11,7 @@
         <column_label>Title</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Addendum 1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
         <sys_update_name>sys_dictionary_x_1902920_scp_fo_0_scp_section_title</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-25 01:30:04</sys_updated_on>
+        <sys_updated_on>2026-10-27 21:53:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

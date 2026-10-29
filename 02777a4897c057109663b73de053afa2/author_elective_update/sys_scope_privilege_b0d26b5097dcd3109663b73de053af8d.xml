@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 06:48:38</sys_created_on>
+        <sys_id>b0d26b5097dcd3109663b73de053af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+        <sys_update_name>sys_scope_privilege_b0d26b5097dcd3109663b73de053af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 06:48:38</sys_updated_on>
+        <target_name>GlideRecord.update</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</application>
+        <file_path/>
+        <instance_id>2e489ac23b460f5c986d048aa4e45a64</instance_id>
+        <instance_name>dev436466</instance_name>
+        <name>sys_scope_privilege_b0d26b5097dcd3109663b73de053af8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-29 06:48:38</sys_created_on><sys_id>b0d26b5097dcd3109663b73de053af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.update</sys_name><sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package><sys_policy/><sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope><sys_update_name>sys_scope_privilege_b0d26b5097dcd3109663b73de053af8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-29 06:48:38</sys_updated_on><target_name>GlideRecord.update</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-1763617811</payload_hash>
+        <record_name>GlideRecord.update</record_name>
+        <reverted_from/>
+        <source>47f2ccc0971013109663b73de053afef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 06:48:38</sys_created_on>
+        <sys_id>f4d26b5097dcd3109663b73de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1866af3da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 06:48:38</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>b0d26b50aadcd310f24cd429760fea90</update_guid>
+        <update_guid_history>b0d26b50aadcd310f24cd429760fea90:-1763617811</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 06:55:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>3f56dbc8d83a48f08119f8ffaab1a100</sys_id>
+        <sys_metadata>b0d26b5097dcd3109663b73de053af8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="SCP Foundation - Secure, Contain, Protect" source="x_1902920_scp_fo_0">02777a4897c057109663b73de053afa2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SCP Foundation - Secure, Contain, Protect">02777a4897c057109663b73de053afa2</sys_scope>
+        <sys_scope_delete display_value="">0db5c08ec78d48588b64e6eef64e0259</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_b0d26b5097dcd3109663b73de053af8d</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_b0d26b5097dcd3109663b73de053af8d">f4d26b5097dcd3109663b73de053af91</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 06:55:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

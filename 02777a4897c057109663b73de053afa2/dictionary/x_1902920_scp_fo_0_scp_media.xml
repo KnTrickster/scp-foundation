@@ -2,8 +2,8 @@
     <element db_object_id="b41e8f7697441f509663b73de053affc" label="SCP Media" max_length="40" name="x_1902920_scp_fo_0_scp_media" type="collection">
         <element label="SCP Record" mandatory="true" max_length="32" name="scp_record" reference="x_1902920_scp_fo_0_scp_record" reference_cascade_rule="delete" type="reference"/>
         <element label="License" max_length="100" name="license" type="string"/>
-        <element label="URL" max_length="1024" name="url" type="url"/>
-        <element choice="3" label="Verification Status" mandatory="true" max_length="40" name="verification_status" type="choice">
+        <element label="URL" mandatory="true" max_length="1024" name="url" type="url"/>
+        <element choice="3" default="pending" label="Verification Status" mandatory="true" max_length="40" name="verification_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Verified" sequence="1" value="verified"/>
                 <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
@@ -18,7 +18,7 @@
                 <element inactive_on_update="false" label="Audio" sequence="1" value="audio"/>
             </choice>
         </element>
-        <element label="Author" max_length="40" name="author" type="string"/>
+        <element label="Author" max_length="255" name="author" type="string"/>
         <element display="true" label="Caption" max_length="255" name="caption" type="string"/>
         <index name="index">
             <element name="scp_record"/>
