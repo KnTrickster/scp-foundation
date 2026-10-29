@@ -1,0 +1,12 @@
+# Dados brutos da wiki (CC BY-SA, não redistribuir)
+scp-api-test/data/content_series-1.json
+scp-api-test/data/index.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Segredos e arquivos locais
+.env
