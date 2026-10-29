@@ -4,13 +4,27 @@
             <element>lead_researcher</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-16 04:11:15</sys_created_on>
-            <sys_id>a822c894974c57109663b73de053af0d</sys_id>
+            <sys_created_on>2026-10-29 05:54:07</sys_created_on>
+            <sys_id>56569b94975cd3109663b73de053af27</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Foundation Operations" display_value="Foundation Operations" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">8aec7b88970c57109663b73de053af78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-16 04:11:15</sys_updated_on>
+            <sys_updated_on>2026-10-29 05:54:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-29 05:54:07</sys_created_on>
+            <sys_id>da569b94975cd3109663b73de053af28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Foundation Operations" display_value="Foundation Operations" name="x_1902920_scp_fo_0_scp_record" sys_domain="global" view="Default view">8aec7b88970c57109663b73de053af78</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-29 05:54:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

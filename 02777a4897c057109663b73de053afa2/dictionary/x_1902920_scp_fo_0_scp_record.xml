@@ -21,8 +21,9 @@
         </element>
         <element label="Author" max_length="255" name="author" type="string"/>
         <element label="Special Containment Procedures" max_length="65536" name="special_containment_procedures" type="html"/>
+        <element label="Site Location" max_length="32" name="site_location" reference="x_1902920_scp_fo_0_foundation_site" reference_cascade_rule="restrict" type="reference"/>
         <element label="SCP Number" max_length="40" name="scp_number" type="integer"/>
-        <element choice="3" default="cc_by_sa_3_0" label="Text License" max_length="40" name="text_license" type="choice">
+        <element choice="3" default="cc_by_sa_3_0" label="Text License" mandatory="true" max_length="40" name="text_license" type="choice">
             <choice>
                 <element inactive_on_update="false" label="CC BY-SA 3.0" sequence="0" value="cc_by_sa_3_0"/>
                 <element inactive_on_update="false" label="Other" sequence="1" value="other"/>
@@ -42,6 +43,9 @@
         </index>
         <index name="index2" unique="true">
             <element name="scp_designation"/>
+        </index>
+        <index name="index3">
+            <element name="site_location"/>
         </index>
     </element>
 </database>
