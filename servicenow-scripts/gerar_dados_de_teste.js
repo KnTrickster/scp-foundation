@@ -14,7 +14,7 @@
     };
     var MARCADOR = 'TESTE-';
 
-    // Ajuste (ou comente) o que não quiser nesta execução.
+    // Ajuste (ou comente) o que quiser variar nessa execução, dá pra só colocar como false.
     var CONFIG = {
         criar: {
             site: true,
